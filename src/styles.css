@@ -1,1 +1,84 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face { font-family: Starjedi; src: url('Starjedi.ttf'); }
+body{
+  font-family: Starjedi;
+  background-image: url('assets/images/galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFE81F;
+  letter-spacing: .15rem;
+  text-transform: lowercase;
+}
+
+.list-group{
+  background: none;
+  text-align: center;
+  display: flex;
+}
+
+.list-group-item{
+  background: none;
+  border-style: solid;
+  border-color: #FFE81F;
+  border-width: .1em;
+  border-radius: 0;
+  margin: .2em;
+}
+
+.list-group-item-heading{
+  text-transform: lowercase;
+}
+
+.form-group input{
+  text-transform: lowercase;
+}
+
+.header-container{
+  width: 80%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-tabs{
+  border-bottom: 1px solid #FFE81F;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  /* color: #495057; */
+  background: none;
+  color: #FFE81F;
+  border-color: #FFE81F;
+}
+
+.lightside{
+  color: rgb(77, 121, 243);
+}
+
+.darkside{
+  color: rgb(199, 29, 29);
+}
+
+.btn-danger,
+.btn-primary{
+  color: white;
+  background: none;
+  border-style: solid;
+  border-width: .1rem;
+  letter-spacing: .15rem;
+  margin: 1rem;
+}
+.btn-danger{
+
+  border-color: rgb(199, 29, 29);
+}
+
+.btn-primary{
+  border-color: rgb(77, 121, 243);
+}
+
+.btn-danger:hover{
+  color: black;
+}
