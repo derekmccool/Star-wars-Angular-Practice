@@ -79,13 +79,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", "", {
+    exports.push([module.i, "@font-face { font-family: Starjedi; src: url('Starjedi.ttf'); }\nbody{\n  font-family: Starjedi;\n  background-image: url('galaxy.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  color: #FFE81F;\n  letter-spacing: .15rem;\n  text-transform: lowercase;\n}\n.list-group{\n  background: none;\n  text-align: center;\n  display: flex;\n}\n.list-group-item{\n  background: none;\n  border-style: solid;\n  border-color: #FFE81F;\n  border-width: .1em;\n  border-radius: 0;\n  margin: .2em;\n}\n.list-group-item-heading{\n  text-transform: lowercase;\n}\n.form-group input{\n  text-transform: lowercase;\n}\n.header-container{\n  width: 80%;\n  text-align: center;\n  margin: 2rem auto;\n}\n.nav-link{\n  color: white;\n}\n.nav-tabs{\n  border-bottom: 1px solid #FFE81F;\n}\n.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {\n  /* color: #495057; */\n  background: none;\n  color: #FFE81F;\n  border-color: #FFE81F;\n}\n.lightside{\n  color: rgb(77, 121, 243);\n}\n.darkside{\n  color: rgb(199, 29, 29);\n}\n.btn-danger,\n.btn-primary{\n  color: white;\n  background: none;\n  border-style: solid;\n  border-width: .1rem;\n  letter-spacing: .15rem;\n  margin: 1rem;\n}\n.btn-danger{\n\n  border-color: rgb(199, 29, 29);\n}\n.btn-primary{\n  border-color: rgb(77, 121, 243);\n}\n.btn-danger:hover{\n  color: black;\n}\n", "", {
       "version": 3,
       "sources": ["styles.css"],
       "names": [],
-      "mappings": "AAAA,8EAA8E",
+      "mappings": "AAAA,aAAa,qBAAqB,EAAE,wBAAwB,EAAE;AAC9D;EACE,qBAAqB;EACrB,mCAAiD;EACjD,4BAA4B;EAC5B,sBAAsB;EACtB,cAAc;EACd,sBAAsB;EACtB,yBAAyB;AAC3B;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,aAAa;AACf;AAEA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,YAAY;AACd;AAEA;EACE,yBAAyB;AAC3B;AAEA;EACE,yBAAyB;AAC3B;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,iBAAiB;AACnB;AAEA;EACE,YAAY;AACd;AAEA;EACE,gCAAgC;AAClC;AAEA;EACE,oBAAoB;EACpB,gBAAgB;EAChB,cAAc;EACd,qBAAqB;AACvB;AAEA;EACE,wBAAwB;AAC1B;AAEA;EACE,uBAAuB;AACzB;AAEA;;EAEE,YAAY;EACZ,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,sBAAsB;EACtB,YAAY;AACd;AACA;;EAEE,8BAA8B;AAChC;AAEA;EACE,+BAA+B;AACjC;AAEA;EACE,YAAY;AACd",
       "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n"]
+      "sourcesContent": ["@font-face { font-family: Starjedi; src: url('Starjedi.ttf'); }\nbody{\n  font-family: Starjedi;\n  background-image: url('assets/images/galaxy.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  color: #FFE81F;\n  letter-spacing: .15rem;\n  text-transform: lowercase;\n}\n\n.list-group{\n  background: none;\n  text-align: center;\n  display: flex;\n}\n\n.list-group-item{\n  background: none;\n  border-style: solid;\n  border-color: #FFE81F;\n  border-width: .1em;\n  border-radius: 0;\n  margin: .2em;\n}\n\n.list-group-item-heading{\n  text-transform: lowercase;\n}\n\n.form-group input{\n  text-transform: lowercase;\n}\n\n.header-container{\n  width: 80%;\n  text-align: center;\n  margin: 2rem auto;\n}\n\n.nav-link{\n  color: white;\n}\n\n.nav-tabs{\n  border-bottom: 1px solid #FFE81F;\n}\n\n.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {\n  /* color: #495057; */\n  background: none;\n  color: #FFE81F;\n  border-color: #FFE81F;\n}\n\n.lightside{\n  color: rgb(77, 121, 243);\n}\n\n.darkside{\n  color: rgb(199, 29, 29);\n}\n\n.btn-danger,\n.btn-primary{\n  color: white;\n  background: none;\n  border-style: solid;\n  border-width: .1rem;\n  letter-spacing: .15rem;\n  margin: 1rem;\n}\n.btn-danger{\n\n  border-color: rgb(199, 29, 29);\n}\n\n.btn-primary{\n  border-color: rgb(77, 121, 243);\n}\n\n.btn-danger:hover{\n  color: black;\n}\n"]
     }]); // Exports
 
     module.exports = exports;
@@ -527,11 +527,11 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! C:\Users\mccoo\Documents\projects\star-wars\node_modules\bootstrap\dist\css\bootstrap.min.css */
+    /*! C:\Users\mccoo\OneDrive\Documents\GitHub\Star-wars-Angular-Practice\node_modules\bootstrap\dist\css\bootstrap.min.css */
     "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
     module.exports = __webpack_require__(
-    /*! C:\Users\mccoo\Documents\projects\star-wars\src\styles.css */
+    /*! C:\Users\mccoo\OneDrive\Documents\GitHub\Star-wars-Angular-Practice\src\styles.css */
     "./src/styles.css");
     /***/
   }
